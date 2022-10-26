@@ -9,7 +9,7 @@ body {
 img {
   max-width: 350px;
   max-width: 50%;
-  
+  float: right;
 }
 #menu ul {
   text-align: left;
@@ -55,7 +55,21 @@ img {
 
 #bContainer {
     color: white;
+    border-top: 0cm;
+    border-left: 0cm;
+    border-right: 0cm;
     
+    border-style: solid;
+    border-color: red;
+    display: grid;
+    grid-template-columns: 2fr 1fr; 
+}
+
+#bContainer h1{
+  border-bottom: 5px red solid;
+}
+br{
+  clear: both;
 }
 .fejlec {
     border-top: 0cm;
@@ -64,16 +78,6 @@ img {
 
     border-style: solid;
     border-color: red;
-}
-
-.aszoveg {
-  border-top: 0cm;
-  border-left: 0cm;
-  border-right: 0cm;
-  
-  border-style: solid;
-  border-color: red;   
-
 }
 
 #cContainer {
